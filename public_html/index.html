@@ -16,7 +16,7 @@ and open the template in the editor.
             body{
 
                 font-family: serif;
-                font-size: 30px;
+                font-size: 16px;
                 color: #ffffff;
             }
             header{
@@ -33,6 +33,21 @@ and open the template in the editor.
                 background: #33ff99;
                 height: 40px;          
             }
+            nav ul{
+                list-style: none; 
+                display: block;
+            }
+            nav ul li{
+                float: left; 
+                margin: 0 5px;
+            }
+            nav li a {
+		display: block;
+		padding: 8px 15px;
+		text-decoration: none;
+		font-weight: bold;
+		color: #069;
+		border-right: 1px solid #ccc; }
             article{
                  width: 100%;
                  background: #ff9933;
@@ -43,6 +58,7 @@ and open the template in the editor.
                  background: #cc00cc;
                 height: 40px;
             }
+            
         </style>
         
     </head>
@@ -52,7 +68,11 @@ and open the template in the editor.
                 
             </header>
             <nav>
-                
+                <ul>
+                    <li><a href="">Inicio</a></li>
+                    <li><a href="">Acerca de</a> </li>
+                    <li><a href="">Contactos</a></li>
+               </ul> 
             </nav>
             <article>
                 
